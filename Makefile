@@ -3,7 +3,7 @@ setup:
 	source ~/.flask-ml-azure/bin/activate
 
 install:
-	python install --upgrade pip &&\
+	pip install --upgrade pip &&\
 		pip install -r requirements.txt
 
 test:
